@@ -21,4 +21,42 @@ namespace ASPAngular_V1
             host.Run();
         }
     }
+
+    //public enum Role
+    //{
+    //    User,
+    //    Admin,
+    //    Guest
+    //}
+
+    //public interface IEntity
+    //{
+    //    long Id { get; set; }
+    //}
+
+    //public class User: IEntity
+    //{
+    //    public string Name { get; set; }
+    //    public Role[] Roles { get; set; }
+    //    public long Id { get; set; }
+
+    //    public User(string name, Role[] roles)
+    //    {
+    //        Name = name;
+    //        Roles = roles;
+    //    }
+
+    //    public bool HasRole(Role role)
+    //    {
+    //        foreach (var r in Roles)
+    //        {
+    //            if (r == role)
+    //            {
+    //                return true;
+    //            }
+    //        }
+
+    //        return false;
+    //    }
+    //}
 }
