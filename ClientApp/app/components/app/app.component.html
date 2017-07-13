@@ -1,17 +1,16 @@
-<div class='container-fluid'>
-    <div class='row'>
-        <div class='col-sm-3'>
-            <nav-menu></nav-menu>
-        </div>
-        <div class='col-sm-9 body-content'>
-            <div class='resizeCont'
-                 mwlResizable
-                 [enableGhostResize]="true"
-                 [resizeEdges]="{bottom: true, right: true, top: true, left: true}"
-                 (resizeEnd)="onResizeEnd($event)">
-                Rene
-            </div>
-            <router-outlet></router-outlet>
-        </div>
+<div>
+    <nav-menu></nav-menu>
+    <div class='body-content'>  
+         
+        <router-outlet></router-outlet>
     </div>
 </div>
+
+
+<!--<div class='resizeCont'
+     mwlResizable
+     [enableGhostResize]="true"
+     [resizeEdges]="{bottom: true, right: true, top: true, left: true}"
+     (resizeEnd)="onResizeEnd($event)">
+    Rene
+</div>-->
